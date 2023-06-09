@@ -1,0 +1,39 @@
+#FileManagerDataGrid .dx-datagrid-header-panel {
+    border-bottom: 1px solid #ddd;
+    height: 48px;
+    padding-inline: 7px;
+}
+
+#FileManagerDataGrid .dx-datagrid-header-panel .dx-toolbar {
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+#FileManagerDataGrid .dx-datagrid-header-panel .dx-toolbar-items-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#FileManagerDataGrid .dx-datagrid-header-panel .dx-item-content {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#FileManagerDataGrid .dx-datagrid-header-panel .dx-datagrid-group-panel {
+    height: 100%;
+}
+
+#FileManagerDataGrid .dx-datagrid-header-panel .dx-group-panel-message {
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+#FileManagerDataGrid .dx-datagrid-group-panel {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

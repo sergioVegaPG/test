@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'barlowregular';
+	src: url('../lib/assets/fonts/barlow-regular-webfont.woff2') format('woff2'),
+		url('../lib/assets/fonts/barlow-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'barlowthin';
+	src: url('../lib/assets/fonts/barlow-thin-webfont.woff2') format('woff2'),
+		url('../lib/assets/fonts/barlow-thin-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Own CSS */
+:root {
+	--WuF_Blue: theme(colors.secondary.500);
+	--WuF_Gold: theme(colors.primary.500);
+	--WuF_White: theme(colors.custom-white);
+}
+
+* {
+	font-family: 'barlowregular', 'barlowthin';
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--WuF_Blue);
+	border-radius: 6px;
+}
+
+.overflow-y-overlay {
+	overflow-y: overlay;
+}
